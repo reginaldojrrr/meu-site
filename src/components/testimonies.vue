@@ -124,10 +124,14 @@
 
         #prev-button {
             left: 10px;
+            width: 56px;
+            height: 56px;
         }
 
         #next-button {
             right: 10px;
+            width: 56px;
+            height: 56px;
         }
     }
 }
