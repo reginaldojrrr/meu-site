@@ -8,8 +8,7 @@
             <img id="layer2" src="../assets/images/avatar2-bg.png" alt="">
             <img data-aos="fade-up" data-aos-duration="3000" id="layer1" src="../assets/images/avatar2.png" alt="">
         </div>
-        <div>
-            <div class="about__texts col-md-5">
+        <div class="about__texts col-md-5">
                 <div class="badge">🧐 Sobre mim</div>
                 <h2>Olá, tudo bem?</h2>
                 <p>👋 Sou formado em Comunicação Social/Publicidade e MBA em Inteligência Competitiva e Inovação em
@@ -40,7 +39,6 @@
                 </a>
                 </button>
             </div>
-        </div>
     </div>
 </template>
 
@@ -49,11 +47,9 @@
     margin-top: 160px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     &__texts {
-        margin-left: 60%;
-
         .badge {
             margin-bottom: 24px;
         }

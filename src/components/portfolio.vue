@@ -538,7 +538,7 @@
                 align-items: flex-start;
                 border-radius: 16px;
                 background: rgba(221, 37, 107, 0.10);
-                width: 24.2%;
+                width: 32.5%;
 
                 h4 {
                     color: $light0;
