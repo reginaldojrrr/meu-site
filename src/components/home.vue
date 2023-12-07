@@ -181,6 +181,7 @@
     gap: 24px;
     justify-content: center;
     margin: 80px 0;
+    cursor: default;
 
     #ui-ux,
     #front-end,
