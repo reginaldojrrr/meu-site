@@ -565,6 +565,12 @@
                     margin-bottom: 24px;
                 }
 
+                img {
+                    height: 190px;
+                    object-fit: cover;
+                    border-radius: 8px;
+                }
+
                 .tags {
                     display: flex;
                     flex-wrap: wrap;
@@ -618,6 +624,7 @@
 @media (max-width: 1024px) {
     .portfolio {
         margin-top: 80px;
+
         .tab-content {
             .tab-pane.pane-1 {
                 .cards {
@@ -665,15 +672,16 @@
 @media (max-width: 768px) {
     .portfolio {
         .tab-content {
-            .tab-pane.pane-1, .tab-pane.pane-2 {
+
+            .tab-pane.pane-1,
+            .tab-pane.pane-2 {
                 .cards {
                     .card {
                         width: 100%;
                     }
                 }
-                
+
             }
         }
     }
-}
-</style>
+}</style>
