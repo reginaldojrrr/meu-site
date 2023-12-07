@@ -292,23 +292,28 @@
             }
 
             .react {
-                top: 28%;
-                left: -4%;
+                width: 64px;
+                top: 22%;
+                left: -6%;
             }
 
             .ts {
+                width: 64px;
                 top: 38%;
-                left: 86%;
+                left: 90%;
             }
 
             .figma {
-                top: 60%;
-                left: 0;
+                width: 64px;
+                top: 68%;
+                left: -4;
             }
         }
 
         .textsCta {
-            // margin-top: -200px;
+            .texts {
+                margin-top: 24px;
+            }
         }
     }
 
