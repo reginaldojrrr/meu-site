@@ -68,7 +68,8 @@ header {
 }
 
 .navbar {
-    background-color: rgba(75, 77, 79, 0.60);
+    background-color: rgba(5, 1, 7, 0.60);
+    
     padding: 24px;
     display: flex;
 
