@@ -389,6 +389,7 @@
     h3 {
         margin-top: 80px;
         margin-bottom: 48px;
+        text-align: center;
     }
 
     .tools {

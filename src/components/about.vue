@@ -129,7 +129,6 @@
 
         &__texts {
             margin-top: 80px;
-            width: 80%;
         }
     }
 }

@@ -684,4 +684,13 @@
             }
         }
     }
-}</style>
+}
+
+@media (max-width: 425px) {
+        .nav-link {
+            img {
+                display: none;
+            }
+        }
+    }
+</style>
