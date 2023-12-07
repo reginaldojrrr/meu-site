@@ -19,7 +19,8 @@
                 através da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
             </p>
             <button type="button" class="custom-button">
-                <a href="https://drive.google.com/file/d/1S9UmL5ic0Kc3DapbA3G54i4jP7fd4Ysl/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1S9UmL5ic0Kc3DapbA3G54i4jP7fd4Ysl/view?usp=sharing"
+                    target="_blank">
                     <span class="label">Baixar CV</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                         <g clip-path="url(#clip0_107_178)">
@@ -76,6 +77,58 @@
         #layer2 {
             left: 40px;
             top: 23px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+        margin-top: 40px;
+
+        #avatar2 {
+            left: -26%;
+        }
+
+        &__texts {
+            margin-top: 40px;
+
+            .custom-button {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+
+        #avatar2 {
+            left: -38%;
+        }
+
+    }
+}
+
+@media (max-width: 425px) {
+    .about {
+
+        #avatar2 {
+            height: 380px;
+
+            #layer2,
+            #layer1 {
+                height: 380px;
+            }
+
+            #layer1 {
+                top: 23px;
+            }
+        }
+
+        &__texts {
+            margin-top: 80px;
+            width: 80%;
         }
     }
 }

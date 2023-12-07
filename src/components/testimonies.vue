@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="cards">
-        <div class="card col-4">
+        <div class="card">
             <p class="quote">
                 “Posso afirmar que, no que diz respeito a Produto e Design, ele é um profissional de altíssimo nível. Além
                 disso, o Reginaldo apresenta um grande diferencial no âmbito tecnológico. Além das habilidades em design,
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="card col-4">
+        <div class="card">
             <p class="quote">
                 “Foi uma das pessoas chave para a criação do nosso Design System open-source, o Smash DS, e na criação de
                 diversos processos e rituais de coesão entre os times de design e desenvolvimento. Sob a perspectiva de soft
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="card col-4">
+        <div class="card">
             <p class="quote">
                 “Trabalhar com o Reginaldo é gratificante, sempre organizado e comprometido, faz entregas que facilitam
                 demais a vida dos desenvolvedores. Tem conhecimento amplo na área de UX, além de aprofundar muito e entender
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="card col-4">
+        <!-- <div class="card">
             <p class="quote">
                 “O Reginaldo é um dos profissionais mais incríveis que eu tive o prazer de trabalhar! Um Sênior PD em toda a
                 sua glória, que tem o técnico super afiado, abraça os desafios, traz boas referências para o time, e ainda
@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="card col-4">
+        <div class="card">
             <p class="quote">
                 “Cara, Regis é muito firmeza. Além de resolver as coisas com a qualidade de ponta, é um grande ouvinte e
                 conselheiro. Sempre que preciso de ajuda, posso contar com a sua análise afiada. Sem dúvidas, alguém que eu
@@ -79,7 +79,7 @@
                     <p>Product Designer na Yampi</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -88,8 +88,9 @@
 
 .cards-header {
     display: flex;
-    align-items:last baseline;
+    align-items: last baseline;
     justify-content: space-between;
+
     .title {
         margin-top: 160px;
 
@@ -147,6 +148,18 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .cards-header {
+        .title {
+            margin-top: 80px;
+        }
+    }
+    .cards {
+        flex-direction: column;
     }
 }
 </style>

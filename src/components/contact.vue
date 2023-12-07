@@ -49,4 +49,14 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 1024px) {
+    .title {
+        margin-top: 80px;
+    }
+
+    .cta {
+        margin-bottom: 80px;
+    }
+}
 </style>

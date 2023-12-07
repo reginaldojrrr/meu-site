@@ -214,6 +214,7 @@
         align-items: center;
         justify-content: center;
         position: static;
+
         .textsCta {
             display: flex;
             flex-direction: column;
@@ -225,7 +226,7 @@
                 align-items: center;
                 text-align: center;
                 position: static;
-                margin-top: 430px;
+                margin-top: 400px;
             }
 
             ul {
@@ -234,48 +235,86 @@
         }
 
         .avatar {
-        margin-top: -60px;
+            margin-top: -160px;
+        }
+
+        #react {
+            position: absolute;
+            top: 20%;
+            left: 18%;
+        }
+
+        #ts {
+            position: absolute;
+            top: 30%;
+            left: 67%;
+        }
+
+        #figma {
+            position: absolute;
+            top: 38%;
+            left: 18%;
+        }
     }
 
-    #react {
-        position: absolute;
-        top: 28%;
-        left: 18%;
+    .divider1 {
+        margin-top: 40px;
     }
+}
 
-    #ts {
-        position: absolute;
-        top: 36%;
-        left: 67%;
-    }
-
-    #figma {
-        position: absolute;
-        top: 48%;
-        left: 18%;
-    }
-    }
+#area {
+    margin: 32px 0;
 }
 
 @media (max-width: 768px) {
     .home {
         #react {
-        position: absolute;
-        top: 28%;
-        left: 8%;
+            position: absolute;
+            top: 20%;
+            left: 8%;
+        }
+
+        #ts {
+            position: absolute;
+            top: 32%;
+            left: 72%;
+        }
+
+        #figma {
+            position: absolute;
+            top: 39%;
+            left: 9%;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .home {
+        .avatar {
+            img {
+                height: 320px;
+            }
+        }
+
+        #react {
+            top: 20%;
+            left: -2%;
+        }
+
+        #ts {
+            top: 32%;
+            left: 65%;
+        }
+
+        #figma {
+            top: 39%;
+            left: 2%;
+        }
     }
 
-    #ts {
-        position: absolute;
-        top: 36%;
-        left: 72%;
-    }
-
-    #figma {
-        position: absolute;
-        top: 48%;
-        left: 9%;
-    }
+    #area {
+        flex-direction: column;
+        align-items: center;
     }
 }
 

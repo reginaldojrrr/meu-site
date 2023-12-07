@@ -77,6 +77,7 @@ header {
 
         .navbar-nav {
             gap: 24px;
+            margin: 0;
         }
 
         .nav-link {
@@ -95,7 +96,18 @@ header {
             font-weight: 700;
         }
     }
-
-
 }
+
+.navbar-toggler {
+        background-color: rgba(252, 251, 247, 0.50)
+    }
+
+    .navbar-nav:first-child {
+        margin-top: 24px;
+    }
+    .nav-item {
+        margin: 8px 0;
+    }
 </style>
+
+

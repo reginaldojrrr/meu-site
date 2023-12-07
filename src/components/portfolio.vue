@@ -24,8 +24,8 @@
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-                    tabindex="0">
+                <div class="tab-pane pane-1 fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab" tabindex="0">
                     <div class="cards">
                         <div class="card">
                             <h4>Meu site</h4>
@@ -47,10 +47,10 @@
                                     <p class="tag-label">Vue.JS</p>
                                 </div>
                             </div>
-                            <img class="card-image" src="../assets/images/card1-image.png" alt="">
+                            <img class="card-image" src="../assets/images/card1-image.png" alt="Meu site">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/meu-site" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -96,10 +96,10 @@
                                     <p class="tag-label">JavaScript</p>
                                 </div>
                             </div>
-                            <img class="card-image custom-space" src="../assets/images/card2-image.png" alt="">
+                            <img class="card-image custom-space" src="../assets/images/card2-image.png" alt="Disney Plus">
                             <div class="card-controls">
-                                <button type="button" class="custom-button">
-                                    <a href="#">
+                                <button type="button" class="custom-button" target="_blank">
+                                    <a href="https://github.com/reginaldojrrr/clone_disneyplus ">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -110,24 +110,26 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://clone-disneyplus-three-roan.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -148,7 +150,7 @@
                             <img class="card-image custom-space" src="../assets/images/card3-image.png" alt="">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/breaking-bad" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -159,24 +161,26 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://breaking-bad-ten-lime.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -197,7 +201,7 @@
                             <img class="card-image custom-space" src="../assets/images/card4-image.png" alt="">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/ebac_tech_talks" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -208,24 +212,26 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://ebac-tech-talks-pi-eight.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -246,7 +252,7 @@
                             <img class="card-image custom-space" src="../assets/images/card5-image.png" alt="">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/planos-yampi" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -257,24 +263,26 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://planos-yampi.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -295,7 +303,7 @@
                             <img class="card-image custom-space" src="../assets/images/card6-image.png" alt="">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/calculadora-vuejs" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -306,24 +314,26 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://projeto-calculadora-medias-rust-omega.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -344,7 +354,7 @@
                             <img class="card-image custom-space" src="../assets/images/card7-image.png" alt="">
                             <div class="card-controls">
                                 <button type="button" class="custom-button">
-                                    <a href="#">
+                                    <a href="https://github.com/reginaldojrrr/sorteador_grunt" target="_blank">
                                         <span class="label">Ver código</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                             fill="none">
@@ -355,30 +365,32 @@
                                     </a>
                                 </button>
                                 <button type="button" class="custom-button">
-                                    <span class="label">Visualizar projeto</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                        fill="none">
-                                        <g clip-path="url(#clip0_124_642)">
-                                            <path
-                                                d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
-                                                fill="#FCFBF7" />
-                                            <path
-                                                d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
-                                                fill="#FCFBF7" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_124_642">
-                                                <rect width="24" height="24" fill="white"
-                                                    transform="translate(0.5 0.29541)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    <a href="https://sorteador-grunt-gules.vercel.app/" target="_blank">
+                                        <span class="label">Visualizar projeto</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_124_642)">
+                                                <path
+                                                    d="M16.25 12.2954C16.25 13.29 15.8549 14.2438 15.1517 14.9471C14.4484 15.6503 13.4946 16.0454 12.5 16.0454C11.5054 16.0454 10.5516 15.6503 9.84835 14.9471C9.14509 14.2438 8.75 13.29 8.75 12.2954C8.75 11.3008 9.14509 10.347 9.84835 9.64376C10.5516 8.9405 11.5054 8.54541 12.5 8.54541C13.4946 8.54541 14.4484 8.9405 15.1517 9.64376C15.8549 10.347 16.25 11.3008 16.25 12.2954Z"
+                                                    fill="#FCFBF7" />
+                                                <path
+                                                    d="M0.5 12.2954C0.5 12.2954 5 4.04541 12.5 4.04541C20 4.04541 24.5 12.2954 24.5 12.2954C24.5 12.2954 20 20.5454 12.5 20.5454C5 20.5454 0.5 12.2954 0.5 12.2954ZM12.5 17.5454C13.8924 17.5454 15.2277 16.9923 16.2123 16.0077C17.1969 15.0232 17.75 13.6878 17.75 12.2954C17.75 10.903 17.1969 9.56767 16.2123 8.5831C15.2277 7.59853 13.8924 7.04541 12.5 7.04541C11.1076 7.04541 9.77226 7.59853 8.78769 8.5831C7.80312 9.56767 7.25 10.903 7.25 12.2954C7.25 13.6878 7.80312 15.0232 8.78769 16.0077C9.77226 16.9923 11.1076 17.5454 12.5 17.5454Z"
+                                                    fill="#FCFBF7" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_124_642">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.5 0.29541)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                <div class="tab-pane pane-2 fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
                     tabindex="0">
                     <div class="cards">
                         <div class="card">
@@ -596,9 +608,70 @@
                     .custom-button {
                         height: 40px;
                         width: 100%;
-                        justify-content: center;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .portfolio {
+        margin-top: 80px;
+        .tab-content {
+            .tab-pane.pane-1 {
+                .cards {
+                    .card {
+                        width: 49.1%;
+
+                        .tags {
+                            .tag {
+                                .tag-label {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .card:first-child {
+                        .card-image {
+                            margin-top: 64px;
+                        }
+                    }
+
+                    .card:nth-child(5) {
+                        p {
+                            margin-bottom: 50px;
+                        }
+                    }
+
+                    .card:last-child {
+                        p {
+                            margin-bottom: 50px;
+                        }
+                    }
+                }
+            }
+
+            .tab-pane.pane-2 {
+                .card {
+                    width: 49.1%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        .tab-content {
+            .tab-pane.pane-1, .tab-pane.pane-2 {
+                .cards {
+                    .card {
+                        width: 100%;
+                    }
+                }
+                
             }
         }
     }
