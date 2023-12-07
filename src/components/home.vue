@@ -4,9 +4,6 @@
 
 <template>
     <div class="home">
-        <div class="avatar">
-            <img src="../assets/images/avatar.png" alt="Reginaldo Junior">
-        </div>
         <div class="textsCta">
             <div class="texts">
                 <h1>Reginaldo
@@ -54,29 +51,34 @@
                     </li>
                 </ul>
             </div>
-            <div class="cta">
-                <button type="button" class="custom-button">
-                    <a href="https://wa.me/5519995741450" target="_blank">
-                        <span class="label">Vamos conversar</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_105_114)">
-                                <path
-                                    d="M17.4716 14.382C17.1746 14.233 15.7136 13.515 15.4416 13.415C15.1686 13.316 14.9706 13.267 14.7716 13.565C14.5746 13.862 14.0046 14.531 13.8316 14.729C13.6586 14.928 13.4846 14.952 13.1876 14.804C12.8906 14.654 11.9326 14.341 10.7976 13.329C9.91464 12.541 9.31764 11.568 9.14464 11.27C8.97164 10.973 9.12664 10.812 9.27464 10.664C9.40864 10.531 9.57264 10.317 9.72064 10.144C9.86964 9.97 9.91864 9.846 10.0186 9.647C10.1176 9.449 10.0686 9.276 9.99364 9.127C9.91864 8.978 9.32464 7.515 9.07764 6.92C8.83564 6.341 8.59064 6.42 8.40864 6.41C8.23564 6.402 8.03764 6.4 7.83864 6.4C7.64064 6.4 7.31864 6.474 7.04664 6.772C6.77464 7.069 6.00664 7.788 6.00664 9.251C6.00664 10.713 7.07164 12.126 7.21964 12.325C7.36864 12.523 9.31564 15.525 12.2966 16.812C13.0056 17.118 13.5586 17.301 13.9906 17.437C14.7026 17.664 15.3506 17.632 15.8616 17.555C16.4326 17.47 17.6196 16.836 17.8676 16.142C18.1156 15.448 18.1156 14.853 18.0406 14.729C17.9666 14.605 17.7696 14.531 17.4716 14.382ZM12.0496 21.785H12.0456C10.2754 21.7851 8.53772 21.3092 7.01464 20.407L6.65364 20.193L2.91264 21.175L3.91064 17.527L3.67564 17.153C2.68608 15.5773 2.16258 13.7537 2.16564 11.893C2.16664 6.443 6.60164 2.009 12.0536 2.009C14.6936 2.009 17.1756 3.039 19.0416 4.907C19.9623 5.82362 20.6921 6.91373 21.1886 8.11424C21.6852 9.31476 21.9388 10.6018 21.9346 11.901C21.9316 17.351 17.4976 21.785 12.0496 21.785ZM20.4626 3.488C19.3608 2.37892 18.0499 1.49954 16.6057 0.9008C15.1616 0.302064 13.613 -0.00411726 12.0496 -3.04462e-08C5.49464 -3.04462e-08 0.159641 5.335 0.156641 11.892C0.156641 13.988 0.703641 16.034 1.74464 17.837L0.0566406 24L6.36164 22.346C8.10523 23.2959 10.0591 23.7937 12.0446 23.794H12.0496C18.6036 23.794 23.9396 18.459 23.9426 11.901C23.9475 10.3383 23.6424 8.7901 23.0451 7.34603C22.4477 5.90197 21.57 4.59067 20.4626 3.488Z"
-                                    fill="#FCFBF7" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_105_114">
-                                    <rect width="24" height="24" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </a>
-                </button>
-            </div>
         </div>
-        <img class="vibrate-react" id="react" src="../assets/images/react-icon.svg" alt="React Icon">
-        <img class="vibrate-ts" id="ts" src="../assets/images/ts-icon.svg" alt="TypeScript Icon">
-        <img class="vibrate-figma" id="figma" src="../assets/images/figma-icon.svg" alt="Figma Icon">
+        <div class="motion">
+            <div class="avatar">
+                <img src="../assets/images/avatar.png" alt="Reginaldo Junior">
+            </div>
+            <img class="react vibrate-react" src="../assets/images/react-icon.svg" alt="React">
+            <img class="ts vibrate-ts" src="../assets/images/ts-icon.svg" alt="ts">
+            <img class="figma vibrate-figma" src="../assets/images/figma-icon.svg" alt="figma">
+        </div>
+        <div class="cta">
+            <button type="button" class="custom-button">
+                <a href="https://wa.me/5519995741450" target="_blank">
+                    <span class="label">Vamos conversar</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <g clip-path="url(#clip0_105_114)">
+                            <path
+                                d="M17.4716 14.382C17.1746 14.233 15.7136 13.515 15.4416 13.415C15.1686 13.316 14.9706 13.267 14.7716 13.565C14.5746 13.862 14.0046 14.531 13.8316 14.729C13.6586 14.928 13.4846 14.952 13.1876 14.804C12.8906 14.654 11.9326 14.341 10.7976 13.329C9.91464 12.541 9.31764 11.568 9.14464 11.27C8.97164 10.973 9.12664 10.812 9.27464 10.664C9.40864 10.531 9.57264 10.317 9.72064 10.144C9.86964 9.97 9.91864 9.846 10.0186 9.647C10.1176 9.449 10.0686 9.276 9.99364 9.127C9.91864 8.978 9.32464 7.515 9.07764 6.92C8.83564 6.341 8.59064 6.42 8.40864 6.41C8.23564 6.402 8.03764 6.4 7.83864 6.4C7.64064 6.4 7.31864 6.474 7.04664 6.772C6.77464 7.069 6.00664 7.788 6.00664 9.251C6.00664 10.713 7.07164 12.126 7.21964 12.325C7.36864 12.523 9.31564 15.525 12.2966 16.812C13.0056 17.118 13.5586 17.301 13.9906 17.437C14.7026 17.664 15.3506 17.632 15.8616 17.555C16.4326 17.47 17.6196 16.836 17.8676 16.142C18.1156 15.448 18.1156 14.853 18.0406 14.729C17.9666 14.605 17.7696 14.531 17.4716 14.382ZM12.0496 21.785H12.0456C10.2754 21.7851 8.53772 21.3092 7.01464 20.407L6.65364 20.193L2.91264 21.175L3.91064 17.527L3.67564 17.153C2.68608 15.5773 2.16258 13.7537 2.16564 11.893C2.16664 6.443 6.60164 2.009 12.0536 2.009C14.6936 2.009 17.1756 3.039 19.0416 4.907C19.9623 5.82362 20.6921 6.91373 21.1886 8.11424C21.6852 9.31476 21.9388 10.6018 21.9346 11.901C21.9316 17.351 17.4976 21.785 12.0496 21.785ZM20.4626 3.488C19.3608 2.37892 18.0499 1.49954 16.6057 0.9008C15.1616 0.302064 13.613 -0.00411726 12.0496 -3.04462e-08C5.49464 -3.04462e-08 0.159641 5.335 0.156641 11.892C0.156641 13.988 0.703641 16.034 1.74464 17.837L0.0566406 24L6.36164 22.346C8.10523 23.2959 10.0591 23.7937 12.0446 23.794H12.0496C18.6036 23.794 23.9396 18.459 23.9426 11.901C23.9475 10.3383 23.6424 8.7901 23.0451 7.34603C22.4477 5.90197 21.57 4.59067 20.4626 3.488Z"
+                                fill="#FCFBF7" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_105_114">
+                                <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </button>
+        </div>
     </div>
     <span class="divider1"></span>
     <ul id="area">
@@ -103,17 +105,12 @@
 @import 'src/scss/app.scss';
 
 .home {
-    margin-top: 220px;
+    margin-top: 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 
     .textsCta {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
 
         h1 {
             font-size: $title1;
@@ -140,37 +137,43 @@
         }
     }
 
-    .avatar {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .motion {
+        position: relative;
+        width: 516px;
+        height: 516px;
 
-    }
+        .avatar {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-56%, -50%);
+        }
 
-    #react {
-        position: absolute;
-        top: -30%;
-        left: 27%;
-    }
+        .react {
+            position: absolute;
+            top: 25%;
+            left: -10%;
+        }
 
-    #ts {
-        position: absolute;
-        top: -4%;
-        left: 63%;
-    }
+        .ts {
+            position: absolute;
+            top: 40%;
+            left: 86%;
+        }
 
-    #figma {
-        position: absolute;
-        top: 60%;
-        left: 25%;
+        .figma {
+            position: absolute;
+            top: 65%;
+            left: -10%;
+        }
+
     }
 }
 
 .divider1 {
     width: 100%;
     border: 1px solid rgba(221, 37, 107, 0.20);
-    margin-top: 240px;
+    margin-top: 160px;
 }
 
 #area {
@@ -210,15 +213,41 @@
 
 @media (max-width: 1024px) {
     .home {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: static;
+        flex-direction: column;
+        margin-top: 80px;
+
+        .cta {
+            order: 1;
+        }
+
+        .motion {
+            .avatar {
+                transform: translate(-50%, -50%);
+            }
+
+            .react {
+                position: absolute;
+                top: 28%;
+                left: -4%;
+            }
+
+            .ts {
+                position: absolute;
+                top: 38%;
+                left: 92%;
+            }
+
+            .figma {
+                position: absolute;
+                top: 65%;
+                left: -2%;
+            }
+        }
 
         .textsCta {
+            order: 1;
             display: flex;
             flex-direction: column;
-            position: static;
 
             .texts {
                 display: flex;
@@ -226,39 +255,17 @@
                 align-items: center;
                 text-align: center;
                 position: static;
-                margin-top: 400px;
+                margin-top: 40px;
             }
 
             ul {
                 margin-bottom: 40px;
             }
         }
-
-        .avatar {
-            margin-top: -160px;
-        }
-
-        #react {
-            position: absolute;
-            top: 20%;
-            left: 18%;
-        }
-
-        #ts {
-            position: absolute;
-            top: 30%;
-            left: 67%;
-        }
-
-        #figma {
-            position: absolute;
-            top: 38%;
-            left: 18%;
-        }
     }
 
     .divider1 {
-        margin-top: 40px;
+        margin-top: 80px;
     }
 }
 
@@ -266,55 +273,42 @@
     margin: 32px 0;
 }
 
-@media (max-width: 768px) {
-    .home {
-        #react {
-            position: absolute;
-            top: 20%;
-            left: 8%;
-        }
-
-        #ts {
-            position: absolute;
-            top: 32%;
-            left: 72%;
-        }
-
-        #figma {
-            position: absolute;
-            top: 39%;
-            left: 9%;
-        }
-    }
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 425px) {
     .home {
-        .avatar {
-            margin-top: -250px;
+        margin-top: 48px;
 
-            img {
-                height: 320px;
+        .motion {
+            width: 80%;
+            height: 320px;
+
+            .avatar {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .react {
+                top: 28%;
+                left: -4%;
+            }
+
+            .ts {
+                top: 38%;
+                left: 86%;
+            }
+
+            .figma {
+                top: 60%;
+                left: 0;
             }
         }
 
-        #react {
-            top: 12%;
-            left: -2%;
-        }
-
-        #ts {
-            top: 25%;
-            left: 65%;
-        }
-
-        #figma {
-            top: 30%;
-            left: 2%;
-        }
-
         .textsCta {
-            margin-top: -200px;
+            // margin-top: -200px;
         }
     }
 

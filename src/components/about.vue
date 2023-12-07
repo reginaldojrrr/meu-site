@@ -84,7 +84,7 @@
 @media (max-width: 1024px) {
     .about {
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 80px;
 
         #avatar2 {
             left: -26%;
