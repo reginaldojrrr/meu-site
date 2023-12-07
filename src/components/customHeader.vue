@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 
 import { ref } from 'vue';
 
@@ -19,11 +19,12 @@ const handleClick = (event) => {
 }
 
 
+
 </script>
 
 <template>
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg" @click="handleClick">
+        <nav class="navbar fixed-top navbar-expand-lg" @click="handleClick">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,19 +36,19 @@ const handleClick = (event) => {
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mim</a>
+                            <a class="nav-link" href="#about">Sobre mim</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfólio</a>
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Recomendações</a>
+                            <a class="nav-link" href="#testimonies">Depoimentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contact">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -67,8 +68,7 @@ header {
 }
 
 .navbar {
-    border-radius: 16px;
-    background-color: rgba(252, 251, 247, 0.10);
+    background-color: rgba(75, 77, 79, 0.60);
     padding: 24px;
     display: flex;
 
@@ -92,7 +92,7 @@ header {
 
         .nav-link.active {
             color: $primary;
-            font-weight: 600;
+            font-weight: 700;
         }
     }
 

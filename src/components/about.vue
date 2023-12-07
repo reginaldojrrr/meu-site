@@ -9,17 +9,17 @@
             <img data-aos="fade-up" data-aos-duration="3000" id="layer1" src="../assets/images/avatar2.png" alt="">
         </div>
         <div class="about__texts col-md-5">
-                <div class="badge">🧐 Sobre mim</div>
-                <h2>Olá, tudo bem?</h2>
-                <p>👋 Sou formado em Comunicação Social/Publicidade e MBA em Inteligência Competitiva e Inovação em
-                    Marketing.
-                </p>
-                <p>
-                    🖥️ Atuo há mais de 6 anos como Product Designer e decidi me especializar em desenvolvimento front-end
-                    através da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
-                </p>
-                <button type="button" class="custom-button">
-                    <a href="#">
+            <div class="badge">🧐 Sobre mim</div>
+            <h2>Olá, tudo bem?</h2>
+            <p>👋 Sou formado em Comunicação Social/Publicidade e MBA em Inteligência Competitiva e Inovação em
+                Marketing.
+            </p>
+            <p>
+                🖥️ Atuo há mais de 6 anos como Product Designer e decidi me especializar em desenvolvimento front-end
+                através da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+            </p>
+            <button type="button" class="custom-button">
+                <a href="https://drive.google.com/file/d/1S9UmL5ic0Kc3DapbA3G54i4jP7fd4Ysl/view?usp=sharing" target="_blank">
                     <span class="label">Baixar CV</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
                         <g clip-path="url(#clip0_107_178)">
@@ -37,8 +37,8 @@
                         </defs>
                     </svg>
                 </a>
-                </button>
-            </div>
+            </button>
+        </div>
     </div>
 </template>
 
