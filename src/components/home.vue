@@ -277,7 +277,7 @@
 
 @media (max-width: 425px) {
     .home {
-        margin-top: 48px;
+        margin-top: 32px;
 
         .motion {
             width: 80%;

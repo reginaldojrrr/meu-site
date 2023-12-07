@@ -78,6 +78,7 @@ header {
 
         .navbar-nav {
             gap: 24px;
+            margin-top: 24px;
         }
 
         .nav-link {
