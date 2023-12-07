@@ -78,7 +78,6 @@ header {
 
         .navbar-nav {
             gap: 24px;
-            margin-top: 24px;
         }
 
         .nav-link {
@@ -103,9 +102,6 @@ header {
         background-color: rgba(252, 251, 247, 0.50)
     }
 
-    .navbar-nav:first-child {
-        margin-top: 24px;
-    }
     .nav-item {
         margin: 8px 0;
     }
