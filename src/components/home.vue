@@ -291,24 +291,30 @@
 @media (max-width: 425px) {
     .home {
         .avatar {
+            margin-top: -250px;
+
             img {
                 height: 320px;
             }
         }
 
         #react {
-            top: 20%;
+            top: 12%;
             left: -2%;
         }
 
         #ts {
-            top: 32%;
+            top: 25%;
             left: 65%;
         }
 
         #figma {
-            top: 39%;
+            top: 30%;
             left: 2%;
+        }
+
+        .textsCta {
+            margin-top: -200px;
         }
     }
 
