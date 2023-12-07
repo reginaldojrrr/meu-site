@@ -115,7 +115,7 @@
 
         #avatar2 {
             height: 380px;
-            left: -42%;
+            left: -44%;
 
             #layer2,
             #layer1 {
