@@ -6,7 +6,7 @@
     <div class="about">
         <div id="avatar2">
             <img id="layer2" src="../assets/images/avatar2-bg.png" alt="">
-            <img data-aos="fade-up" data-aos-duration="3000" id="layer1" src="../assets/images/avatar2.png" alt="">
+            <img data-aos="fade-up" data-aos-duration="1000" id="layer1" src="../assets/images/avatar2.png" alt="">
         </div>
         <div class="about__texts col-md-5">
             <div class="badge">🧐 Sobre mim</div>

@@ -39,6 +39,7 @@ a {
 
 .custom-button:hover {
     background-color: rgba(252, 251, 247, 0.10);
+    transition: all 200ms;
 }
 
 .custom-button:disabled {

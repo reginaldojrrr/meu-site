@@ -114,6 +114,7 @@
         border-radius: 16px;
         background: rgba(221, 37, 107, 0.10);
         padding: 24px;
+        border: 1px solid rgba(221, 37, 107, 0.5);
 
         .quote {
             font-style: italic;

@@ -497,7 +497,7 @@
 
     .nav {
         margin-bottom: 56px;
-
+        border-bottom: 2px solid rgba(221, 37, 107, 0.20);
         .nav-item {
             display: flex;
             padding: 0;
@@ -513,7 +513,7 @@
                 align-items: center;
                 justify-content: center;
                 width: 100%;
-                border-bottom: 2px solid rgba(221, 37, 107, 0.20);
+                border-bottom: 2px solid transparent;
 
                 h4 {
                     font-weight: 600;
@@ -551,6 +551,7 @@
                 border-radius: 16px;
                 background: rgba(221, 37, 107, 0.10);
                 width: 32.5%;
+                border: 1px solid rgba(221, 37, 107, 0.5);
 
                 h4 {
                     color: $light0;
