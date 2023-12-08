@@ -110,7 +110,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 490px) {
     .about {
 
         #avatar2 {

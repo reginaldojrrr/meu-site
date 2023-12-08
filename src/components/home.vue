@@ -276,7 +276,7 @@
 
 @media (max-width: 768px) {}
 
-@media (max-width: 425px) {
+@media (max-width: 490px) {
     .home {
         margin-top: 32px;
 

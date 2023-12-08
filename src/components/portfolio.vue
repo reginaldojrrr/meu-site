@@ -695,7 +695,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 490px) {
     .nav-link {
         img {
             display: none;
