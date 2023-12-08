@@ -20,7 +20,7 @@
         border-radius: 500px;
         height: 56px;
         width: 56px;
-        background-color: rgba(221, 37, 107, .30);
+        background-color: rgba(221, 37, 107, .80);
         color: white;
         border: none;
         font-size: 24px;
