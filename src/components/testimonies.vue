@@ -158,9 +158,7 @@
             margin-top: 80px;
         }
     }
-}
 
-@media (max-width: 768px) {
     .cards {
         flex-direction: column;
     }
