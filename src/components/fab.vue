@@ -20,8 +20,9 @@
         border-radius: 500px;
         height: 56px;
         width: 56px;
+        // background-color: rgba(252, 251, 247, .5);
         background-color: rgba(221, 37, 107, .80);
-        color: white;
+        color: $light0;
         border: none;
         font-size: 24px;
         display: flex;

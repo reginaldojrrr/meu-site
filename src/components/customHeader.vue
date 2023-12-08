@@ -24,7 +24,7 @@ const handleClick = (event) => {
 
 <template>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg" @click="handleClick">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg" @click="handleClick">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@ header {
 
 .navbar {
     background-color: rgba(5, 1, 7, 0.60);
-    
+
     padding: 24px;
     display: flex;
 
@@ -100,12 +100,8 @@ header {
 }
 
 .navbar-toggler {
-        background-color: rgba(252, 251, 247, 0.50)
-    }
-
-    .nav-item {
-        margin: 8px 0;
-    }
+    background-color: rgba(221, 37, 107, .80);
+}
 </style>
 
 
