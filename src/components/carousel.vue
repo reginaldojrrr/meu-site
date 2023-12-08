@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <Splide :options="{ rewind: true, autoplay: true }" aria-label="My Favorite Images">
+    <Splide :options="{ rewind: true, autoplay: true }" aria-label="Depoimentos">
         <SplideSlide class="cards">
             <div class="card">
                 <p class="quote">
@@ -85,6 +85,21 @@
                     </div>
                 </div>
             </div>
+            <div class="card">
+                <p class="quote">
+                    “Cara, Regis é muito firmeza. Além de resolver as coisas com a qualidade de ponta, é um grande ouvinte e
+                    conselheiro. Sempre que preciso de ajuda, posso contar com a sua análise afiada. Sem dúvidas, alguém que
+                    eu
+                    indicaria em todo canto por onde eu for..”
+                </p>
+                <div class="person">
+                    <img class="avatar" src="../assets/images/luke.png" alt="Lucas Dias">
+                    <div class="person-info">
+                        <h4>Lucas Dias</h4>
+                        <p>Product Designer na Yampi</p>
+                    </div>
+                </div>
+            </div>
         </SplideSlide>
     </Splide>
 </template>
@@ -103,6 +118,8 @@
         border-radius: 16px;
         background: rgba(221, 37, 107, 0.10);
         padding: 24px;
+        border: 1px solid rgba(221, 37, 107, 0.5);
+        justify-content: space-between;
 
         .quote {
             font-style: italic;
@@ -137,6 +154,12 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1024px) {
+    .cards {
+        flex-direction: column;
     }
 }
 </style>

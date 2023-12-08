@@ -108,7 +108,6 @@
     display: flex;
     gap: 16px;
     overflow: hidden;
-    padding-right: 32px;
 
     .card {
         border-radius: 16px;
@@ -159,6 +158,9 @@
             margin-top: 80px;
         }
     }
+}
+
+@media (max-width: 768px) {
     .cards {
         flex-direction: column;
     }
