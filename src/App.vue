@@ -8,6 +8,7 @@ import testimonies from './components/testimonies.vue'
 // import carousel from './components/carousel.vue'
 import contact from './components/contact.vue'
 import customFooter from './components/customFooter.vue'
+import fab from './components/fab.vue'
 
 window.onload = function() {
             window.scroll(0, 0);
@@ -45,6 +46,7 @@ window.onload = function() {
     </section>
   </div>
   <customFooter></customFooter>
+  <fab></fab>
 </template>
 
 <style lang="scss" scoped>
