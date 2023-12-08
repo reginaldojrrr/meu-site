@@ -17,7 +17,6 @@
     right: 24px;
 
     .fab {
-        float: left;
         border-radius: 500px;
         height: 56px;
         width: 56px;
@@ -25,6 +24,9 @@
         color: white;
         border: none;
         font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .fab:hover {
