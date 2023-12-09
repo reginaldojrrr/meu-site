@@ -19,7 +19,7 @@
                 através da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
             </p>
             <button type="button" class="custom-button">
-                <a href="https://drive.google.com/file/d/1S9UmL5ic0Kc3DapbA3G54i4jP7fd4Ysl/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1Q3kzTcIphnPmT_DFmbjyCOqH7SfW9RHC/view?usp=sharing"
                     target="_blank">
                     <span class="label">Baixar CV</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
